@@ -1,0 +1,623 @@
+# Loading project Lab03
+# Compile of fulladdsub4_testbench.vhd failed with 2 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 2 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 14 errors.
+# Compile of fulladd4.vhd was successful.
+# Compile of fulladd_testbench.vhd was successful.
+# Compile of fulladd.vhd was successful.
+# Compile of halfadd.vhd was successful.
+# Compile of multiplexer221.vhd was successful.
+# Compile of multipexer421.vhd was successful.
+# Compile of mplx421_testbench.vhd was successful.
+# Compile of combinatorial.vhd was successful.
+# Compile of combinatorial_tb.vhd was successful.
+# Compile of halfsub.vhd was successful.
+# Compile of fullsub_testbench.vhd was successful.
+# Compile of fullsub.vhd was successful.
+# Compile of fulladdsub4_testbench.vhd failed with 4 errors.
+# 13 compiles, 1 failed with 4 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 2 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 10 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 1 errors.
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:43:47 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+run
+run -all
+# ** Error: failed sum
+#    Time: 900 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1100 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1300 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1500 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 1600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 2500 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 2600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 2700 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 2800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 2900 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 3 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 3100 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 3200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4100 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4300 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4500 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4700 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 4800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 5700 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 5800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 5900 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 6 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 6100 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 6200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 6300 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed sum
+#    Time: 6400 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error: failed sum
+#    Time: 900 ps  Iteration: 0  Instance: /fulladd_tb
+quit -sim
+# End time: 11:45:36 on Sep 27,2026, Elapsed time: 0:01:49
+# Errors: 1, Warnings: 1
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:46:31 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+quit -sim
+# End time: 11:46:43 on Sep 27,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 2
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:47:51 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+# ** Error: failed subtraction
+#    Time: 400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 1 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 1200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 1400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 1600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 2200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 2400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 2600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 2800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 3 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 3200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 4 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 4200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 4400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 4600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 4800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 5800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 6 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 6200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 6400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 7600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 7800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 8 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 9400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 9600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction
+#    Time: 11200 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+run
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+run
+# ** Error: failed subtraction
+#    Time: 400 ps  Iteration: 0  Instance: /fulladd_tb
+quit -sim
+# End time: 11:49:32 on Sep 27,2026, Elapsed time: 0:01:41
+# Errors: 1, Warnings: 1
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:51:24 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+# ** Error: failed subtraction with carryover
+#    Time: 200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 3800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 5600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 7400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 9200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 11 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 12800 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 200 ps  Iteration: 0  Instance: /fulladd_tb
+quit -sim
+# End time: 11:52:54 on Sep 27,2026, Elapsed time: 0:01:30
+# Errors: 1, Warnings: 1
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:53:07 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+# ** Error: failed subtraction with carryover
+#    Time: 200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 3800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 5600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 7400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 9200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 11 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 12800 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 200 ps  Iteration: 0  Instance: /fulladd_tb
+quit -sim
+# End time: 11:53:57 on Sep 27,2026, Elapsed time: 0:00:50
+# Errors: 1, Warnings: 1
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 11:54:06 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+quit -sim
+# End time: 11:55:18 on Sep 27,2026, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# Compile of fulladdsub4_testbench.vhd failed with 1 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 1 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 1 errors.
+# Compile of fulladdsub4_testbench.vhd failed with 1 errors.
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 12:00:47 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+# ** Error: failed subtraction with carryover
+#    Time: 400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 1 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 1200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 1400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 1600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 2800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 3 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 3200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 4 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 4200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 4400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 4600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 4800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 5800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 6 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 6200 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 6400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 7600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 7800 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 8 ns  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 9400 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 9600 ps  Iteration: 0  Instance: /fulladd_tb
+# ** Error: failed subtraction with carryover
+#    Time: 11200 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+run
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 400 ps  Iteration: 0  Instance: /fulladd_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+add wave -position end  sim:/fulladd_tb/mode
+add wave -position end  sim:/fulladd_tb/co
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+add wave -position end  sim:/fulladd_tb/mode
+add wave -position end  sim:/fulladd_tb/co
+run
+run
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 400 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 600 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 800 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 1 ns  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 1200 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 1400 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+# ** Error: failed subtraction with carryover
+#    Time: 1600 ps  Iteration: 0  Instance: /fulladd_tb
+run
+run
+run
+run
+quit -sim
+# End time: 12:06:15 on Sep 27,2026, Elapsed time: 0:05:28
+# Errors: 7, Warnings: 1
+# Compile of fulladdsub4_testbench.vhd was successful.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 12:06:52 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+run -all
+# Compile of fulladd4.vhd was successful.
+# Compile of fulladd_testbench.vhd was successful.
+# Compile of fulladd.vhd was successful.
+# Compile of halfadd.vhd was successful.
+# Compile of multiplexer221.vhd was successful.
+# Compile of multipexer421.vhd was successful.
+# Compile of mplx421_testbench.vhd was successful.
+# Compile of combinatorial.vhd was successful.
+# Compile of combinatorial_tb.vhd was successful.
+# Compile of halfsub.vhd was successful.
+# Compile of fullsub_testbench.vhd was successful.
+# Compile of fullsub.vhd was successful.
+# Compile of fulladdsub4_testbench.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+quit -sim
+# End time: 14:14:52 on Sep 27,2026, Elapsed time: 2:08:00
+# Errors: 0, Warnings: 3
+# Compile of fulladd4.vhd was successful.
+# Compile of fulladd_testbench.vhd was successful.
+# Compile of fulladd.vhd was successful.
+# Compile of halfadd.vhd was successful.
+# Compile of multiplexer221.vhd was successful.
+# Compile of multipexer421.vhd was successful.
+# Compile of mplx421_testbench.vhd was successful.
+# Compile of combinatorial.vhd was successful.
+# Compile of combinatorial_tb.vhd was successful.
+# Compile of halfsub.vhd was successful.
+# Compile of fullsub_testbench.vhd was successful.
+# Compile of fullsub.vhd was successful.
+# Compile of fulladdsub4_testbench.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.combial_tb
+# vsim work.combial_tb 
+# Start time: 14:18:59 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.combial_tb(combial_tbarch)
+# Loading work.combial(combialarch)
+add wave -position end  sim:/combial_tb/in_vec
+add wave -position end  sim:/combial_tb/output
+run -all
+vsim work.full_adder_tb
+# End time: 14:19:58 on Sep 27,2026, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.full_adder_tb 
+# Start time: 14:19:58 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.full_adder_tb(behavioral)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+add wave -position end  sim:/full_adder_tb/A_tb
+add wave -position end  sim:/full_adder_tb/B_tb
+add wave -position end  sim:/full_adder_tb/Cin_tb
+add wave -position end  sim:/full_adder_tb/Cout_tb
+add wave -position end  sim:/full_adder_tb/Sum_tb
+run -all
+vsim work.fulladd_tb
+# End time: 14:20:37 on Sep 27,2026, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 1
+# vsim work.fulladd_tb 
+# Start time: 14:20:37 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.adder4(add4arch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+add wave -position end  sim:/fulladd_tb/a_vec
+add wave -position end  sim:/fulladd_tb/b_vec
+add wave -position end  sim:/fulladd_tb/sum_vec
+add wave -position end  sim:/fulladd_tb/mode
+add wave -position end  sim:/fulladd_tb/co
+run -all
+vsim work.fullsub_tb
+# End time: 14:24:48 on Sep 27,2026, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 1
+# vsim work.fullsub_tb 
+# Start time: 14:24:48 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fullsub_tb(fullsub_tbarch)
+# Loading work.fullsub(fullsubarch)
+# Loading work.halfsub(halfsubarch)
+quit -sim
+# End time: 14:25:43 on Sep 27,2026, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 1
+# Compile of fulladd4.vhd was successful.
+# Compile of fulladd_testbench.vhd was successful.
+# Compile of fulladd.vhd was successful.
+# Compile of halfadd.vhd was successful.
+# Compile of multiplexer221.vhd was successful.
+# Compile of multipexer421.vhd was successful.
+# Compile of mplx421_testbench.vhd was successful.
+# Compile of combinatorial.vhd was successful.
+# Compile of combinatorial_tb.vhd was successful.
+# Compile of halfsub.vhd was successful.
+# Compile of fullsub_testbench.vhd was successful.
+# Compile of fullsub.vhd was successful.
+# Compile of fulladdsub4_testbench.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.fulladd_tb
+# vsim work.fulladd_tb 
+# Start time: 14:25:55 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fulladd_tb(fulladd_tbarch)
+# Loading work.fulladder(fullarch)
+# Loading work.halfadder(halfarch)
+add wave -position end  sim:/fulladd_tb/assertion
+add wave -position end  sim:/fulladd_tb/input_vec
+add wave -position end  sim:/fulladd_tb/sum
+add wave -position end  sim:/fulladd_tb/co
+add wave -position end  sim:/fulladd_tb/N
+add wave -position end  sim:/fulladd_tb/M
+run -all
+vsim work.fullsub_tb
+# End time: 14:27:31 on Sep 27,2026, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 2
+# vsim work.fullsub_tb 
+# Start time: 14:27:31 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fullsub_tb(fullsub_tbarch)
+# Loading work.fullsub(fullsubarch)
+# Loading work.halfsub(halfsubarch)
+add wave -position end  sim:/fullsub_tb/assertion
+add wave -position end  sim:/fullsub_tb/input_vec
+add wave -position end  sim:/fullsub_tb/sum
+add wave -position end  sim:/fullsub_tb/co
+add wave -position end  sim:/fullsub_tb/N
+add wave -position end  sim:/fullsub_tb/M
+run -all
+vsim work.mplx421_tb
+# End time: 14:28:59 on Sep 27,2026, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 1
+# vsim work.mplx421_tb 
+# Start time: 14:28:59 on Sep 27,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mplx421_tb(mplx421_tbarch)
+# Loading work.mplx421(mplx421arch)
+# Loading work.mplx221(mplx221arch)
+add wave -position end  sim:/mplx421_tb/v_vec
+add wave -position end  sim:/mplx421_tb/s_vec
+add wave -position end  sim:/mplx421_tb/w
+run -all
+# End time: 14:32:24 on Sep 27,2026, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 1

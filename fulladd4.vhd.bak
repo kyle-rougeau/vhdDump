@@ -23,4 +23,4 @@ FA1: entity work.fulladder port map (a => a_vec(1), b => xorSig_vec(1), cin => c
 FA2: entity work.fulladder port map (a => a_vec(2), b => xorSig_vec(2), cin => cSig_vec(1), co => cSig_vec(2), sum => sum_vec(2));
 FA3: entity work.fulladder port map (a => a_vec(3), b => xorSig_vec(3), cin => cSig_vec(2), co => cOut,        sum => sum_vec(3));
 
-end add4arch
+end add4arch;

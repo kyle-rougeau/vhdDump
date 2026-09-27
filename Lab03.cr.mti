@@ -1,0 +1,119 @@
+/home/kyle/intelFPGA/projects/fullsub_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/fullsub_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fullsub_tb
+-- Compiling architecture fullsub_tbarch of fullsub_tb
+-- Loading entity fullsub
+
+} {} {}} /home/kyle/gitrepos/vhdDump/fulladd.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/gitrepos/vhdDump/fulladd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture fullarch of fulladder
+-- Loading entity halfadder
+
+} {} {}} /home/kyle/intelFPGA/projects/fullsub.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/fullsub.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullsub
+-- Compiling architecture fullsubarch of fullsub
+-- Loading entity halfsub
+
+} {} {}} /home/kyle/intelFPGA/projects/multipexer421.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/multipexer421.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mplx421
+-- Compiling architecture mplx421arch of mplx421
+-- Loading entity mplx221
+
+} {} {}} /home/kyle/gitrepos/vhdDump/fulladd4.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/gitrepos/vhdDump/fulladd4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder4
+-- Compiling architecture add4arch of adder4
+-- Loading entity fulladder
+
+} {} {}} /home/kyle/intelFPGA/projects/combinatorial_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/combinatorial_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity combial_tb
+-- Compiling architecture combial_tbarch of combial_tb
+-- Loading entity combial
+
+} {} {}} /home/kyle/intelFPGA/projects/fulladd_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/fulladd_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fulladd_tb
+-- Compiling architecture fulladd_tbarch of fulladd_tb
+-- Loading entity fulladder
+
+} {} {}} /home/kyle/intelFPGA/projects/combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/combinatorial.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity combial
+-- Compiling architecture combialarch of combial
+
+} {} {}} /home/kyle/gitrepos/vhdDump/halfadd.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/gitrepos/vhdDump/halfadd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity halfadder
+-- Compiling architecture halfarch of halfadder
+
+} {} {}} /home/kyle/intelFPGA/projects/halfsub.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/halfsub.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity halfsub
+-- Compiling architecture halfsubarch of halfsub
+
+} {} {}} /home/kyle/intelFPGA/projects/mplx421_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/mplx421_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mplx421_tb
+-- Compiling architecture mplx421_tbarch of mplx421_tb
+-- Loading entity mplx421
+
+} {} {}} /home/kyle/intelFPGA/projects/multiplexer221.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/multiplexer221.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mplx221
+-- Compiling architecture mplx221arch of mplx221
+
+} {} {}} /home/kyle/intelFPGA/projects/fulladdsub4_testbench.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kyle/intelFPGA/projects/fulladdsub4_testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fulladdsub_tb
+-- Compiling architecture fulladdsub_tbarch of fulladdsub_tb
+-- Loading entity adder4
+
+} {} {}}
