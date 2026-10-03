@@ -24,10 +24,17 @@ begin
 
 process
 begin
+for v_dummy in 0 to 15 loop
+for s_dummy in 0 to 3 loop
+wait for 100ps;
 
 w <= v_vec(to_integer(s_vec));
 
-wait for 100ps;
+s_vec <= s_vec + 1;
+end loop;
+v_vec <= v_vec + 1;
+end loop;
+wait;
 end process;
 
 end sequential;
